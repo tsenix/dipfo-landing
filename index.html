@@ -4,7 +4,7 @@
 	<title>DIPFO</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20211001002550">
+	<link rel="stylesheet" href="css/style.min.css?_v=20211002105140">
 	<link rel="shortcut icon" href="favicon.ico">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -14,7 +14,7 @@
 	<div class="_container">
 		<div class="header__body">
 			<div class="header__logo">
-				<img src="img/logo.svg?_v=1633037160183" alt="">
+				<img src="img/logo.svg?_v=1633161100718" alt="">
 			</div>
 
 			<div class="header__content">
@@ -33,11 +33,11 @@
 				</nav>
 
 				<div class="header__social">
-					<a href="#" class="header__social-item">
-						<img src="img/icons/instagram.svg?_v=1633037160183" alt="">
+					<a href="#" class="header__social-item header__social-item_i">
+						<img src="img/icons/instagram.svg?_v=1633161100718" alt="">
 					</a>
-					<a href="#" class="header__social-item">
-						<img src="img/icons/facebook.svg?_v=1633037160183" alt="">
+					<a href="#" class="header__social-item header__social-item_f">
+						<img src="img/icons/facebook.svg?_v=1633161100718" alt="">
 					</a>
 				</div>
 			</div>
@@ -59,12 +59,16 @@
 							<div class="main__title">Сохраним надолго Ваши воспоминания</div>
 							<div class="main__subtitle">Счастливые и радостные дни навсегда останутся с Вами</div>
 							<div class="main__mob-image">
-								<img src="img/main-image.jpg?_v=1633037160183" alt="">
+								<div class="main__mob-image-wrap">
+									<img src="img/main-image.jpg?_v=1633161100718" alt="">
+								</div>
 							</div>
 							<a href="#" class="main__button btn">попробовать бесплатно</a>
 						</div>
 						<div class="main__image">
-							<img src="img/main-image.jpg?_v=1633037160183" alt="">
+							<div class="main__image-wrap">
+								<img src="img/main-image.jpg?_v=1633161100718" alt="">
+							</div>
 						</div>
 					</div>
 				</div>
@@ -76,8 +80,42 @@
 							<p class="calc__text">Мы поможем выбрать количество необходимого места для Ваших файлов</p>
 							<a href="#" class="calc__button btn">попробовать бесплатно</a>
 						</div>
-						<div class="calc__image">
-							<img src="img/calc-image.png?_v=1633037160183" alt="">
+
+						<div class="calc__calculator calculator">
+							<div class="calculator__header">
+								<div class="calculator__icon">
+									<img src="img/icons/calc.svg?_v=1633161100718" alt="">
+								</div>
+								<h3 class="calculator__title">Калькулятор фото</h3>
+							</div>
+
+							<div class="calculator__line">
+								<p class="calculator__text">Сколько мегапикселей в вашем смартфоне?</p>
+								<div class="calculator__select">
+									<select name="form[]">
+										<option value="1" selected="selected">12mpx</option>
+										<option value="2">24mpx</option>
+										<option value="3">36mpx</option>
+										<option value="4">48mpx</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="calculator__line">
+								<div class="calculator__quantity quantity">
+									<div class="quantity__input">
+										<input autocomplete="off" type="text" name="form[]" value="1 Gb">
+									</div>
+									<div class="quantity__button quantity__button_minus"></div>
+									<div class="quantity__button quantity__button_plus"></div>
+								</div>
+								<p class="calculator__text">Объем памяти в облачном хранилище Dipfo</p>
+							</div>
+
+							<div class="calculator__bottom">
+								<div class="calculator__bottom-text">Будем хранить:</div>
+								<div class="calculator__bottom-info"><span class="calculator__bottom-quan">556</span> фото, всего за: <span class="calculator__bottom-cost">3.34 грн. в месяц</span></div>
+							</div>
 						</div>
 					</div>
 				</section>
@@ -86,25 +124,25 @@
 					<div class="_container">
 						<h2 class="storage__title">Мы не продаём место, мы храним Ваши воспоминания</h2>
 						<div class="storage__body">
-							<div class="storage__item">
+							<div class="storage__item _anim-items">
 								<div class="storage__icon">
-									<img src="img/memories/icon01.svg?_v=1633037160183" alt="">
+									<img src="img/memories/icon01.svg?_v=1633161100718" alt="">
 								</div>
 								<div class="storage__item-title">Бесплатно</div>
 								<div class="storage__item-text">Безлимит на создание документов, таблиц и заметок</div>
 							</div>
 
-							<div class="storage__item">
+							<div class="storage__item _anim-items">
 								<div class="storage__icon">
-									<img src="img/memories/icon02.svg?_v=1633037160183" alt="">
+									<img src="img/memories/icon02.svg?_v=1633161100718" alt="">
 								</div>
 								<div class="storage__item-title">500 Мб</div>
 								<div class="storage__item-text">500 мб бесплатно для загрузки фото и видео файлов</div>
 							</div>
 
-							<div class="storage__item">
+							<div class="storage__item _anim-items">
 								<div class="storage__icon">
-									<img src="img/memories/icon03.svg?_v=1633037160183" alt="">
+									<img src="img/memories/icon03.svg?_v=1633161100718" alt="">
 								</div>
 								<div class="storage__item-title">1.67 грн</div>
 								<div class="storage__item-text">1.86 грн. за каждый дополнительный гигабайт в месяц</div>
@@ -118,31 +156,31 @@
 						<div class="dipfo__content">
 							<h2 class="dipfo__title">DIPFO - с нами просто и легко</h2>
 							<div class="dipfo__subtitle">Сервис для хранения,  обмена и комментирования лучших фрагментов Вашей жизни...</div>
-							<ul class="dipfo__list">
+							<ul class="dipfo__list _anim-items">
 								<li class="dipfo__item">
 									<div class="dipfo__icon dipfo__icon_01">
-										<img src="img/dipfo/icon01.svg?_v=1633037160183" alt="">
+										<img src="img/dipfo/icon01.svg?_v=1633161100718" alt="">
 									</div>
 									<div class="dipfo__text">Безопасное хранение Ваших данных</div>
 								</li>
 
 								<li class="dipfo__item">
 									<div class="dipfo__icon dipfo__icon_02">
-										<img src="img/dipfo/icon02.svg?_v=1633037160183" alt="">
+										<img src="img/dipfo/icon02.svg?_v=1633161100718" alt="">
 									</div>
 									<div class="dipfo__text">Простая и быстрая регистрация</div>
 								</li>
 
 								<li class="dipfo__item">
 									<div class="dipfo__icon dipfo__icon_03">
-										<img src="img/dipfo/icon03.svg?_v=1633037160183" alt="">
+										<img src="img/dipfo/icon03.svg?_v=1633161100718" alt="">
 									</div>
 									<div class="dipfo__text">Лента с событиями, фото друзей и сообществ</div>
 								</li>
 
 								<li class="dipfo__item">
 									<div class="dipfo__icon dipfo__icon_04">
-										<img src="img/dipfo/icon04.svg?_v=1633037160183" alt="">
+										<img src="img/dipfo/icon04.svg?_v=1633161100718" alt="">
 									</div>
 									<div class="dipfo__text">Легко и просто поделиться своими фото</div>
 								</li>
@@ -150,9 +188,9 @@
 						</div>
 
 						<div class="dipfo__wrap">
-							<div class="dipfo__image">
+							<div class="dipfo__image _anim-items">
 								<div class="dipfo__image-wrap">
-									<img src="img/dipfo/image.jpg?_v=1633037160183" alt="">
+									<img src="img/dipfo/image.jpg?_v=1633161100718" alt="">
 								</div>
 							</div>
 						</div>
@@ -168,9 +206,9 @@
 						</div>
 
 						<div class="discussion__feedback">
-							<div class="discussion__item discussion__item_r">
+							<div class="discussion__item discussion__item_r _anim-items">
 								<div class="discussion__item-image">
-									<img src="img/discussion/avatar01.png?_v=1633037160183" alt="">
+									<img src="img/discussion/avatar01.png?_v=1633161100718" alt="">
 								</div>
 								<div class="discussion__item-content">
 									<div class="discussion__item-name">Анастасия</div>
@@ -178,9 +216,9 @@
 								</div>
 							</div>
 
-							<div class="discussion__item discussion__item_l">
+							<div class="discussion__item discussion__item_l _anim-items">
 								<div class="discussion__item-image">
-									<img src="img/discussion/avatar02.png?_v=1633037160183" alt="">
+									<img src="img/discussion/avatar02.png?_v=1633161100718" alt="">
 								</div>
 								<div class="discussion__item-content">
 									<div class="discussion__item-name">Валерия</div>
@@ -196,7 +234,7 @@
 						<h2 class="interface__title">Простой, удобный, интуитивно понятный интерфейс</h2>
 					</div>
 					<div class="interface__image">
-						<img src="img/interface-image.jpg?_v=1633037160183" alt="">
+						<img src="img/interface-image.jpg?_v=1633161100718" alt="">
 					</div>
 				</section>
 
@@ -205,9 +243,9 @@
 						<h2 class="news__title">Новости Dipfo</h2>
 
 						<div class="news__body">
-							<div class="news__item">
+							<div class="news__item _anim-items">
 								<a href="#" class="news__image">
-									<img src="img/news/image01.png?_v=1633037160183" alt="">
+									<img src="img/news/image01.png?_v=1633161100718" alt="">
 								</a>
 								<h3 class="news__item-title">
 									<a href="#">Размещение компании в каталоге Dipfo</a>
@@ -215,9 +253,9 @@
 								<div class="news__text">Цель любого бизнеса - развитие и получение максимальной прибыли.</div>
 							</div>
 
-							<div class="news__item">
+							<div class="news__item _anim-items">
 								<a href="#" class="news__image">
-									<img src="img/news/image02.png?_v=1633037160183" alt="">
+									<img src="img/news/image02.png?_v=1633161100718" alt="">
 								</a>
 								<h3 class="news__item-title">
 									<a href="#">Новое направление DIPFO - каталог компаний и организаций Украины</a>
@@ -225,9 +263,9 @@
 								<div class="news__text">Цель любого бизнеса - развитие и получение максимальной</div>
 							</div>
 
-							<div class="news__item">
+							<div class="news__item _anim-items">
 								<a href="#" class="news__image">
-									<img src="img/news/image03.png?_v=1633037160183" alt="">
+									<img src="img/news/image03.png?_v=1633161100718" alt="">
 								</a>
 								<h3 class="news__item-title">
 									<a href="#">О заметках в облачном сервисе DIPFO</a>
@@ -235,9 +273,9 @@
 								<div class="news__text">Сайт DIPFO успел зарекомендовать себя как надежный и эффективный </div>
 							</div>
 
-							<div class="news__item">
+							<div class="news__item _anim-items">
 								<a href="#" class="news__image">
-									<img src="img/news/image04.png?_v=1633037160183" alt="">
+									<img src="img/news/image04.png?_v=1633161100718" alt="">
 								</a>
 								<h3 class="news__item-title">
 									<a href="#">Новый функционал облачного сервиса DIPFO</a>
@@ -252,29 +290,29 @@
 					<div class="_container">
 						<h2 class="confidence__title">Нам доверяют свои данные</h2>
 						<div class="confidence__body">
-							<div class="confidence__item">
+							<div class="confidence__item _anim-items">
 								<div class="confidence__image">
-									<img src="img/confidence/logo01.svg?_v=1633037160183" alt="">
+									<img src="img/confidence/logo01.svg?_v=1633161100718" alt="">
 								</div>
 							</div>
-							<div class="confidence__item">
+							<div class="confidence__item _anim-items">
 								<div class="confidence__image">
-									<img src="img/confidence/logo02.svg?_v=1633037160183" alt="">
+									<img src="img/confidence/logo02.svg?_v=1633161100718" alt="">
 								</div>
 							</div>
-							<div class="confidence__item">
+							<div class="confidence__item _anim-items">
 								<div class="confidence__image">
-									<img src="img/confidence/logo03.svg?_v=1633037160183" alt="">
+									<img src="img/confidence/logo03.svg?_v=1633161100718" alt="">
 								</div>
 							</div>
-							<div class="confidence__item">
+							<div class="confidence__item _anim-items">
 								<div class="confidence__image">
-									<img src="img/confidence/logo04.svg?_v=1633037160183" alt="">
+									<img src="img/confidence/logo04.svg?_v=1633161100718" alt="">
 								</div>
 							</div>
-							<div class="confidence__item">
+							<div class="confidence__item _anim-items">
 								<div class="confidence__image">
-									<img src="img/confidence/logo05.svg?_v=1633037160183" alt="">
+									<img src="img/confidence/logo05.svg?_v=1633161100718" alt="">
 								</div>
 							</div>
 						</div>
@@ -310,17 +348,17 @@
 
 		<div class="footer__bottom">
 			<div class="footer__logo">
-				<img src="img/logo.svg?_v=1633037160183" alt="">
+				<img src="img/logo.svg?_v=1633161100718" alt="">
 			</div>
 
 			<div class="footer__copyright">© 2021 dipfo.com все права защищены</div>
 
 			<div class="footer__socials">
-				<a href="#" class="footer__social">
-					<img src="img/icons/instagram.svg?_v=1633037160183" alt="">
+				<a href="#" class="footer__social footer__social_i">
+					<img src="img/icons/instagram.svg?_v=1633161100718" alt="">
 				</a>
-				<a href="#" class="footer__social">
-					<img src="img/icons/facebook.svg?_v=1633037160183" alt="">
+				<a href="#" class="footer__social footer__social_f">
+					<img src="img/icons/facebook.svg?_v=1633161100718" alt="">
 				</a>
 			</div>
 		</div>
@@ -348,10 +386,10 @@
 			<div class="popup__text">войти через</div>
 			<div class="popup__socials">
 				<a href="#" class="popup__social">
-					<img src="img/icons/google.svg?_v=1633037160183" alt="">
+					<img src="img/icons/google.svg?_v=1633161100718" alt="">
 				</a>
 				<a href="#" class="popup__social">
-					<img src="img/icons/facebook.svg?_v=1633037160183" alt="">
+					<img src="img/icons/facebook.svg?_v=1633161100718" alt="">
 				</a>
 			</div>
 		</div>
@@ -362,7 +400,7 @@
 	<div class="popup__content">
 		<div class="popup__body">
 			<div class="popup__close"></div>
-			<h2 class="popup__title">Создать учетную запись</h2>
+			<h2 class="popup__title popup__title_up">Создать учетную запись</h2>
 			<form action="#" class="form">
 				<div class="form__line">
 					<input type="email" name="email" class="form__input input" placeholder="E-mail">
@@ -372,10 +410,10 @@
 			<div class="popup__text">войти через</div>
 			<div class="popup__socials">
 				<a href="#" class="popup__social">
-					<img src="img/icons/google.svg?_v=1633037160183" alt="">
+					<img src="img/icons/google.svg?_v=1633161100718" alt="">
 				</a>
 				<a href="#" class="popup__social">
-					<img src="img/icons/facebook.svg?_v=1633037160183" alt="">
+					<img src="img/icons/facebook.svg?_v=1633161100718" alt="">
 				</a>
 			</div>
 		</div>
@@ -383,7 +421,7 @@
 </div>
 		<!-- Swiper -->
 <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
-<script src="js/vendors.min.js?_v=20211001002600"></script>
-<script src="js/app.min.js?_v=20211001002600"></script>
+<script src="js/vendors.min.js?_v=20211002105140"></script>
+<script src="js/app.min.js?_v=20211002105140"></script>
 	</body>
 </html>
